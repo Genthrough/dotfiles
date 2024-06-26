@@ -21,6 +21,7 @@ cask "google-chrome"
 cask "notion"
 cask "onedrive"
 cask "slack"
+cask "vlc"
 cask "visual-studio-code"
 cask "zoom"
 

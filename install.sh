@@ -4,6 +4,14 @@
 cd "$(dirname "$0")" || exit
 
 # Execute installHomebrew.sh
+chmod +x ./bin/createSymbolicLink.sh
+./bin/createSymbolicLink.sh
+
+
+# Move to the directory where this script exists.
+cd "$(dirname "$0")" || exit
+
+# Execute installHomebrew.sh
 chmod +x ./bin/installHomebrew.sh
 ./bin/installHomebrew.sh
 

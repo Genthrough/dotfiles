@@ -1,18 +1,4 @@
 ## memo for shell script
-
-1. install homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-2. set path to homebrew
-(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/ryo/.zshrc
-eval "$(/opt/homebrew/bin/brew shellenv)"
-
-3. log in to AppStore
-This is to enable "mas" to install applications.
-
-4. Move “.Brewfile” to home directory
-
-5. Install the applications described in "Brewfile"
 >> brew bundle --global
 
 by this command, homebrew install the applications in Brewfile.
@@ -22,13 +8,11 @@ mas ... -> application which is normally installed with AppStore
 it seems plugins for VS code and Google Chrome can be described in the Brewfile.
 I have to confirm this.
 
-
-
 ## Brewfile
 by hitting the command below, Homebrew installs the application specifiee in ~/.Brewfile
 brew bundle --global
 
-couldn't install vagrant
+This command was not able to install vagrant
 maybe need to install with Rosetta
 is it possible to install with Rosetta with command line?
 
@@ -42,16 +26,15 @@ keyboard -> keyboard shortcut
   change control to Capslock
   change Capslock to control
 
-
 setup mail
 add accounts
-
 add applications to Dock
-
 import the gesture and license of BetterTouchTool
 
-customize shell
+# customize shell
 https://qiita.com/kinchiki/items/57e9391128d07819c321
+
+maybe unnecessary because these settings are stored in dotfiles.
 
 
 pyenv should be managed with anyenv
@@ -89,9 +72,6 @@ when creating symbolic link, the path must be specified by full path.
 The command to create symbolic link is as follows
 ln -s "original path" "link path"
 -s option is used to create symbolic link, not hard link.
-
-
-
 
 ## git config
 git config --global user.name "Genthrough"

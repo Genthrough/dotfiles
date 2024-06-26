@@ -1,0 +1,9 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Genthrough
+	email = raghdwds@gmail.com
+# Please adapt and uncomment the following lines:
+#	name = Genthrough
+#	email = raghdwds@gmail.com
+[pull]
+	rebase = false
