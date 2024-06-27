@@ -7,7 +7,6 @@ brew "go"
 brew "mas"
 brew "mysql"
 brew "zsh-completions"
-brew "poetry"
 
 cask "1password"
 cask "alfred"
