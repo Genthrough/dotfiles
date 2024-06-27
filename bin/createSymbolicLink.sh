@@ -8,6 +8,7 @@ for f in .??*; do
     [ "$f" = ".gitconfig.local.template" ] && continue
     [ "$f" = ".gitmodules" ] && continue
     [ "$f" = ".gitignore" ] && continue
+    [ "$f" = ".DS_Store" ] && continue
 
     ln -snfv ${PWD}/"$f" ~/
 done
