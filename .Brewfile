@@ -6,6 +6,7 @@ brew "git"
 brew "go"
 brew "mas"
 brew "mysql"
+brew "zinit"
 brew "zsh-completions"
 
 cask "1password"
