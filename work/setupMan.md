@@ -26,6 +26,9 @@ keyboard -> keyboard shortcut
   change control to Capslock
   change Capslock to control
 
+Trackpad -> Look up & data detectors
+ change to Tap with Three Fingers
+
 setup mail
 add accounts
 add applications to Dock
