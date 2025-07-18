@@ -17,6 +17,7 @@ cask "anki"
 cask "bettertouchtool"
 cask "chatgpt"
 cask "coteditor"
+cask "docker-desktop"
 cask "discord"
 cask "dropbox"
 cask "firefox"
@@ -30,3 +31,5 @@ cask "zoom"
 
 mas "Trello", id: 1278508951
 mas "LINE", id: 539883307
+mas "Kindle", id: 302584613
+
